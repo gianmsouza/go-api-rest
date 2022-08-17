@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	database.ConnectBD()
+	database.ConnectDB()
 
 	fmt.Println("Servidor Rest com Go iniciado")
 	routes.HandleResquest()
