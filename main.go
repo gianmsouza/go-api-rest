@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-
 	database.ConnectDB()
 
 	fmt.Println("Servidor Rest com Go iniciado")
